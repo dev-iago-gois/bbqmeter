@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/csw0yom.css" />
+    <title>BBQ Meter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>BBQ Meter</h1>
+      <input type="number" name="adults" id="adults" placeholder="Adults" />
+      <input type="number" name="kids" id="kids" placeholder="Kids" />
+      <input
+        type="number"
+        name="duration"
+        id="duration"
+        placeholder="Duration (h)"
+      />
+
+      <button onclick="calc()">Calculate</button>
+
+      <div id="result"></div>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

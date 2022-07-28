@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Hack", sans-serif;
+}
+body {
+  background-color: #181a1b;
+  font-family: "hack", Regular;
+}
+.container {
+  display: flex;
+  max-width: 15rem;
+  margin: auto;
+  background-color: #145060;
+  padding: 1.25rem;
+  color: whitesmoke;
+  border-radius: 0.6rem;
+}
+input {
+  display: block;
+}
