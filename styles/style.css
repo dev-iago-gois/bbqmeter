@@ -3,17 +3,31 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  font-family: "Hack", sans-serif;
+  /* font-family: "Hack", sans-serif; */
 }
 body {
-  background-color: #181a1b;
-  font-family: "hack", Regular;
+  background-color: #33312e;
+}
+.hea-style {
+  background-color: #bdbbb6;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px;
+}
+.hea-text {
+  font-size: 1rem;
+}
+.hea-nav-social {
+  display: flex;
+  height: 3rem;
 }
 .container {
   display: flex;
+  flex-direction: column;
   max-width: 15rem;
   margin: auto;
-  background-color: #145060;
+  background-color: #f9a825;
   padding: 1.25rem;
   color: whitesmoke;
   border-radius: 0.6rem;
