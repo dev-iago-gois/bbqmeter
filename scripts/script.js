@@ -24,20 +24,14 @@ function calc() {
   let qtTotalBottle = adults * bottlePP(duration) + kids * 0.5 * bottlePP(duration);
 
   // Display calculations
-
+//   The "+" symbol before the "=" means that the text wont be erased by the next line of text, without it, it would be showing only the last line
+  result.innerHTML = `<p>${qtTotalMeat/1000} Kg of meat.`
+  result.innerHTML += `<p>${Math.ceil(qtTotalBeer/0.355)} cans of beer (355ml).`
+  result.innerHTML += `<p>${qtTotalBottle} L of soda/water.`
+  
   console.log(qtTotalMeat, " grams of meat.");
   console.log(qtTotalBeer, " L of beer.");
   console.log(qtTotalBottle, " L of soda/water.");
-
-  //   if - 6h
-  //   totalMeat = (Adults*400)+(Kids*0.5*400)
-  //   totalBeer = (Adults*1.2)+(Kids*0.5*1.2)
-  //   totalSodaWater = (Adults*1)+(Kids*0.5*1)
-
-  //   if + 6h
-  //   totalMeat = (Adults*650)+(Kids*0.5*650)
-  //   totalBeer = (Adults*2)+(Kids*0.5*2)
-  //   totalSodaWater = (Adults*1.5)+(Kids*0.5*1.5)
 }
 
 // Meat per person function
@@ -48,6 +42,7 @@ function meatPP(duration) {
     return 400;
   }
 }
+
 // Beer per person function
 function beerPP(duration) {
   if (duration >= 6) {
@@ -56,6 +51,7 @@ function beerPP(duration) {
     return 1.2;
   }
 }
+
 // Bottle (Soda/Water) per person function
 function bottlePP(duration) {
   if (duration >= 6) {

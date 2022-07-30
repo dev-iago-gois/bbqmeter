@@ -1,27 +1,28 @@
 * {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  box-sizing: border-box;
-  /* font-family: "Hack", sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+body{
+    font-size: 100%;
+    background: #33312E;
 }
-body {
-  background-color: #33312e;
+.hea {
+    background: #BDBBB6;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: ;
 }
-.hea-style {
-  background-color: #bdbbb6;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 24px;
+.hea-text{
+    font-family: ;
+    font-size: 2rem;
+    color: black;
 }
-.hea-text {
-  font-size: 1rem;
-}
-.hea-nav-social {
-  display: flex;
-  height: 3rem;
-}
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -29,9 +30,6 @@ body {
   margin: auto;
   background-color: #f9a825;
   padding: 1.25rem;
-  color: whitesmoke;
+  color: black;
   border-radius: 0.6rem;
-}
-input {
-  display: block;
 }
