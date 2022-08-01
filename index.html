@@ -14,6 +14,7 @@
 
   <body>
     <header>
+        <!-- Use PNG files on Navbar icons. (SVG bugs everything) -->
         <nav class="navbar">
             <a href="https://github.com/snowymonkey" class="nav-text">SnowyMonkeyZ</a>
             <ul class="nav-list">
@@ -22,17 +23,31 @@
             </ul>
           </nav>
     </header>
-<!-- Use PNG files on Navbar icons. (SVG bugs everything) -->
-    <div class="container">
-      <h1>BBQ Meter</h1>
-      <input type="number" name="adults" id="adults" placeholder="Adults" />
-      <input type="number" name="kids" id="kids" placeholder="Kids" />
-      <input type="number" name="duration" id="duration" placeholder="Duration (h)"/>
 
-      <button onclick="calc()">Calculate</button>
+    <main>
+        <div class="content">
+            <p class="content-text">Calculate your BBQ expenses easier!</p>
+            <img class="content-img" src="./assets/barbecue.svg" alt="Man standing cooking an BBQ">
+            
+        </div>
+        <div class="main-bbqmeterbox">
+            <h1>BBQ Meter</h1>
+            <label for="adults">Adults:</label>
+            <input type="number" name="adults" id="adults" placeholder="Adults" />
+            <label for="kids">Kids:</label>
+            <input type="number" name="kids" id="kids" placeholder="Kids" />
+            <label for="duration">Duration:</label>
+            <input type="number" name="duration" id="duration" placeholder="Duration (h)"/>
 
-      <div id="result"></div>
-    </div>
-    <script src="./scripts/script.js"></script>
+            <button onclick="calc()">Calculate</button>
+
+            <div id="result"></div>
+        </div>
+        <script src="./scripts/script.js"></script>
+    </main>
+
+    <footer>
+        <a href="#">Last changed: 8/1/2022 v1.0</a>
+    </footer>
   </body>
 </html>

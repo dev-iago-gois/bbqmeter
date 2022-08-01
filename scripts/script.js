@@ -25,9 +25,34 @@ function calc() {
 
   // Display calculations
 //   The "+" symbol before the "=" means that the text wont be erased by the next line of text, without it, it would be showing only the last line
-  result.innerHTML = `<p>${qtTotalMeat/1000} Kg of meat.`
-  result.innerHTML += `<p>${Math.ceil(qtTotalBeer/0.355)} cans of beer (355ml).`
-  result.innerHTML += `<p>${qtTotalBottle} L of soda/water.`
+result.innerHTML = `<h3 class="result-info">You will need:</h3>`
+result.innerHTML += `
+  <div class="result-box">
+  <p>
+  <img src="./assets/meat.svg"/>
+  ${qtTotalMeat/1000} Kg of meat.
+  </p>
+  <div>
+  `
+
+  result.innerHTML += `
+  <div class="result-box">  
+  <p>
+  <img src="./assets/can.svg"/>
+  ${Math.ceil(qtTotalBeer/0.355)} cans of beer (355ml).
+  </p>
+  <div>
+  `
+
+  result.innerHTML += `
+  <div class="result-box">  
+  <p>
+  <img src="./assets/bottle.svg"/>
+  ${qtTotalBottle} L of soda/water.
+  </p>
+  <div>
+  
+  `
   
   console.log(qtTotalMeat, " grams of meat.");
   console.log(qtTotalBeer, " L of beer.");
