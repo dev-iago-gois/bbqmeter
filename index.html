@@ -13,14 +13,16 @@
   </head>
 
   <body>
-    <header class="hea">
-        <a class="hea-text" href="https://github.com/snowymonkey">SnowyMonkeyZ</a>
-        <nav class="hea-nav">
-            <a class="hea-nav-social" href="https://github.com/snowymonkey/bbqmeter"><img src="./assets/github.svg" alt="GitHub Profile"/></a>
-            <a class="hea-nav-social" href="https://www.linkedin.com/in/iago-rafael-17bab7229/"><img src="./assets/linkedin.svg" alt="Linkedin Profile"/></a>
-        </nav>
+    <header>
+        <nav class="navbar">
+            <a href="https://github.com/snowymonkey" class="nav-text">SnowyMonkeyZ</a>
+            <ul class="nav-list">
+              <li class="nav-item"><a href="https://github.com/snowymonkey/bbqmeter"><img src="./assets/ghlogo.png" alt="GitHub Profile image"/></a></li>
+              <li class="nav-item"><a href="https://www.linkedin.com/in/iago-rafael-17bab7229/"><img src="./assets/ldlogo.png" alt="Linkedin Profile image"/></a></li>
+            </ul>
+          </nav>
     </header>
-
+<!-- Use PNG files on Navbar icons. (SVG bugs everything) -->
     <div class="container">
       <h1>BBQ Meter</h1>
       <input type="number" name="adults" id="adults" placeholder="Adults" />
