@@ -17,7 +17,7 @@ BBQ Meter
 <p align="center">
   <a href="#clipboard-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#closed-book-license">License</a>
+  <a href="#closed_book-license">License</a>
 </p>
 
 ## :clipboard: About
