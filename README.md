@@ -1,27 +1,19 @@
-<p align="center">
-   <img src=".github/logo.svg" alt="Churrascometro"/>
+<p align="center";>
+BBQ Meter
 </p>
-
-<p align="center"> 
-  <a href="https://www.linkedin.com/in/karoline-takahagassi-b9ba4b1ab/">
-    <img alt="Karoline Costa" src="https://img.shields.io/badge/-KarolineTakahagassi-FFE162?style=flat&logo=Linkedin&logoColor=black" />
-  </a>
-
-  <a href="mailto:takahagassi.dev@gmail.com">
-    <img alt="Karoline Costa" src="https://img.shields.io/badge/-takahagassi.dev@gmail.com-FFE162?style=flat-square&logo=Gmail&logoColor=black" />
-  </a>
-
+<br>
+<p align="center">	
   <img alt="License" src="https://img.shields.io/badge/license-MIT-FFE162">
 </p>
 
 <div align="center">
-   Projeto desenvolvido no curso do ProgBR
+   Project developed in the PromagadorBR course
 </div>
-
+<br>
 <p align="center">
-  <img alt="mockup" src=".github/churrascometro.png" width="100%">
+  <img alt="mockup" src="https://raw.githubusercontent.com/snowymonkey/bbqmeter/main/assets/site-preview.png" width="70%">
 </p>
-
+<br>
 <p align="center">
   <a href="#clipboard-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
