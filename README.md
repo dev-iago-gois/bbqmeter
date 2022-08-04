@@ -1,7 +1,5 @@
-<p align="center";>
-BBQ Meter
-</p>
-<br>
+# <a href="https://snowymonkey.github.io/bbqmeter/">BBQ Meter</a>
+
 <p align="center">	
   <img alt="License" src="https://img.shields.io/badge/license-MIT-FFE162">
 </p>
