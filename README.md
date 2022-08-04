@@ -38,10 +38,10 @@ Crianças valem por 0,5.
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- HTML
-- CSS
-- JavaScript
+- ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
+- ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
 
 ## :closed_book: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/karoltaka/churrascometro/blob/master/LICENSE) para mais detalhes.
+This project is under a MIT license. See [LICENSE](https://github.com/karoltaka/churrascometro/blob/master/LICENSE) for details.
