@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
-    <!-- Font bellow -->
-    <link rel="stylesheet" href="https://use.typekit.net/csw0yom.css" />
-    <!-- Page icon bellow -->
-    <link rel="shortcut icon" href="./assets/page-icon.svg" type="image/x-icon"/>
-    <title>BBQ Meter</title>
-  </head>
 
-  <body>
-    <header>
-        <!-- Use PNG files on Navbar icons. (SVG bugs everything) -->
-        <nav class="navbar">
-            <a href="https://github.com/snowymonkey" class="nav-text">SnowyMonkeyZ</a>
-            <ul class="nav-list">
-              <li class="nav-item"><a href="https://github.com/snowymonkey/bbqmeter"><img src="./assets/ghlogo.png" alt="GitHub Profile image"/></a></li>
-              <li class="nav-item"><a href="https://www.linkedin.com/in/iago-rafael-17bab7229/"><img src="./assets/ldlogo.png" alt="Linkedin Profile image"/></a></li>
-            </ul>
-          </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+  <!-- Font bellow -->
+  <link rel="stylesheet" href="https://use.typekit.net/csw0yom.css" />
+  <!-- Page icon bellow -->
+  <link rel="shortcut icon" href="./assets/page-icon.svg" type="image/x-icon" />
+  <title>BBQ Meter</title>
+</head>
 
-    <main>
-        <div class="content">
-            <p class="content-text">Calculate your BBQ expenses easier!</p>
-            <img class="content-img" src="./assets/barbecue.svg" alt="Man standing cooking an BBQ">
-            
-        </div>
-        <div class="main-bbqmeterbox">
-            <h1>BBQ Meter</h1>
-            <label for="adults">Adults:</label>
-            <input type="number" name="adults" id="adults" placeholder="Adults" />
-            <label for="kids">Kids:</label>
-            <input type="number" name="kids" id="kids" placeholder="Kids" />
-            <label for="duration">Duration:</label>
-            <input type="number" name="duration" id="duration" placeholder="Duration (h)"/>
+<body>
+  <header>
+    <!-- Use PNG files on Navbar icons. (SVG bugs everything) -->
+    <nav class="navbar">
+      <a href="https://github.com/snowymonkey" class="nav-text">SnowyMonkeyZ</a>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="https://github.com/snowymonkey/bbqmeter"><img src="./assets/ghlogo.png"
+              alt="GitHub Profile image" /></a></li>
+        <li class="nav-item"><a href="https://www.linkedin.com/in/iago-rafael-17bab7229/"><img src="./assets/ldlogo.png"
+              alt="Linkedin Profile image" /></a></li>
+      </ul>
+    </nav>
+  </header>
 
-            <button onclick="calc()">Calculate</button>
+  <main>
+    <div class="content">
+      <p class="content-text">Calculate your BBQ expenses easier!</p>
+      <img class="content-img" src="./assets/barbecue.svg" alt="Man standing cooking an BBQ">
 
-            <div id="result"></div>
-        </div>
-        <script src="./scripts/script.js"></script>
-    </main>
+    </div>
+    <div class="main-bbqmeterbox">
+      <h1>BBQ Meter</h1>
+      <label for="adults">Adults:</label>
+      <input type="number" name="adults" id="adults" placeholder="Adults" />
+      <label for="kids">Kids:</label>
+      <input type="number" name="kids" id="kids" placeholder="Kids" />
+      <label for="duration">Duration:</label>
+      <input type="number" name="duration" id="duration" placeholder="Duration (h)" />
 
-    <footer>
-        <a href="#">Last changed: 8/1/2022 v1.0</a>
-    </footer>
-  </body>
+      <button onclick="calc()">Calculate</button>
+
+      <div id="result"></div>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </main>
+
+  <footer>
+    <a href="#">Last changed: 8/4/2022 v1.5</a>
+  </footer>
+</body>
+
 </html>
