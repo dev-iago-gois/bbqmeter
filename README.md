@@ -46,4 +46,4 @@ An calculator to know BBQ expenses easier!
 
 ## :closed_book: License
 
-This project is under a MIT license. See [LICENSE](https://github.com/karoltaka/churrascometro/blob/master/LICENSE) for details.
+This project is under a MIT license. See [LICENSE](https://github.com/snowymonkey/bbqmeter/blob/main/LICENSE) for details.
